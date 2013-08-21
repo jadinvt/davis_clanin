@@ -7,19 +7,19 @@
      xmlns:wfw="http://wellformedweb.org/CommentAPI/"
      >
   <channel>
-    <title>My Blogofile Example</title>
+    <title>Honora Maighréad</title>
     <link>http://www.example.com/blog</link>
-    <description>Just a simple HTML5 blog</description>
-    <pubDate>Fri, 02 Aug 2013 04:45:30 GMT</pubDate>
+    <description>. . . the newest DavisClanin</description>
+    <pubDate>Wed, 21 Aug 2013 02:09:48 GMT</pubDate>
     <generator>Blogofile</generator>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <item>
       <title>Post 3 - Unicode Test - How about some 日本語テスト</title>
       <link>http://www.example.com/blog/2011/05/10/post-3-unicode-test-how-about-some-ri-ben-yu-tesuto</link>
-      <pubDate>Tue, 10 May 2011 15:22:00 EDT</pubDate>
+      <pubDate>Tue, 10 May 2011 15:22:00 CDT</pubDate>
       <category><![CDATA[unicode]]></category>
-      <guid isPermaLink="false">B49PSSr_wWGUI8DUq4YBvHEXvYE=</guid>
+      <guid isPermaLink="false">zyS-zhvRIxwi_tDvn7BXiKvQJC4=</guid>
       <description>Post 3 - Unicode Test - How about some 日本語テスト</description>
       <content:encoded><![CDATA[<p>Anglo-Saxon Rune Poem:</p>
 <p>ᚠᛇᚻ᛫ᛒᛦᚦ᛫ᚠᚱᚩᚠᚢᚱ᛫ᚠᛁᚱᚪ᛫ᚷᛖᚻᚹᛦᛚᚳᚢᛗ

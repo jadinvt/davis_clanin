@@ -7,20 +7,20 @@
      xmlns:wfw="http://wellformedweb.org/CommentAPI/"
      >
   <channel>
-    <title>My Blogofile Example</title>
+    <title>Honora Maighréad</title>
     <link>http://www.example.com/blog</link>
-    <description>Just a simple HTML5 blog</description>
-    <pubDate>Fri, 02 Aug 2013 04:45:30 GMT</pubDate>
+    <description>. . . the newest DavisClanin</description>
+    <pubDate>Wed, 21 Aug 2013 02:09:48 GMT</pubDate>
     <generator>Blogofile</generator>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <item>
       <title>Post 2</title>
       <link>http://www.example.com/blog/2010/07/24/post-2</link>
-      <pubDate>Sat, 24 Jul 2010 16:20:00 EDT</pubDate>
+      <pubDate>Sat, 24 Jul 2010 16:20:00 CDT</pubDate>
       <category><![CDATA[category 2]]></category>
       <category><![CDATA[category 1]]></category>
-      <guid isPermaLink="false">9RfGJ-330elQtmE83oH6fvHnNXc=</guid>
+      <guid isPermaLink="false">bxZwLliQ052r1_8lSmPoW57rf24=</guid>
       <description>Post 2</description>
       <content:encoded><![CDATA[<p>This is post #2.</p>
 <p>This post just shows off some <a href="http://www.freewisdom.org/projects/python-markdown/" title="Markdown in Python">markdown</a> features. Markdown is a simple <abbr title="Hyper Text Markup Language (this is just an abbreviation test)">HTML</abbr> markup language in plain text, so it's easier to read and write.</p>
