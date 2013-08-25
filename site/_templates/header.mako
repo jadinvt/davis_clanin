@@ -11,13 +11,5 @@ def nav_class(path):
        return "selected"
    return ""
 %>
-    <ul class="theme_font">
-      <li><a href="${bf.util.site_path_helper()}"
-             class="${nav_class(bf.util.site_path_helper())}">Home</a></li>
-      <li><a href="${bf.util.site_path_helper(bf.config.blog.path)}"
-             class="${nav_class(bf.util.site_path_helper(bf.config.blog.path))}">Blog</a></li>
-      <li><a href="${bf.util.site_path_helper(bf.config.blog.path,'archive')}"
-             class="${nav_class(bf.util.site_path_helper(bf.config.blog.path,'archive'))}">Archives</a></li>
-    </ul>
   </div>
 </header>
