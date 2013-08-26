@@ -11,6 +11,7 @@ config = {"name"        : "Photo Gallery",
           "priority"    : 40.0}
 
 photos_dir = os.path.join("demo","photo_gallery")
+print ("%s"%photos_dir)
 
 def run():
     photos = read_photos()
