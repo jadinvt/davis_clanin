@@ -287,7 +287,7 @@ div#credits p {
     overflow: hidden;
 }
 .blog_post_title a {
-    color: #fff;
+    color: #111;
     float: left;
     margin-top: 4px;
 }
@@ -424,4 +424,35 @@ aside li {
     background: -ms-linear-gradient(top, #DDD 8%,#6C8CD5 92%); /* IE10+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#DDD', endColorstr='#6C8CD5',GradientType=0 ); /* IE6-9 */
     background: linear-gradient(top, #DDD 8%,#6C8CD5 92%); /* W3C */
+}
+.floatright
+{
+  float:right;
+  margin: 0 0 15px 20px;
+  padding: 3px;
+  border: 1px solid black;
+  text-align:center;
+}
+.floatleft
+{
+  float:left;
+  margin: 0 20px 15px 0;
+  padding: 15px;
+  border: 1px solid black;
+  text-align:center;
+}
+.imagecaption
+{
+    font-size:75%;
+    width:80%;
+}
+
+figcaption.width450
+{
+    width: 450px; /* This can be any width, so long as it's narrower than any image */
+}
+
+figcaption.width300
+{
+    width: 300px; /* This can be any width, so long as it's narrower than any image */
 }
