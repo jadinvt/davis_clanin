@@ -10,7 +10,8 @@ config = {"name"        : "Photo Gallery",
           "description" : "A very simplistic photo gallery, used as an example",
           "priority"    : 40.0}
 
-photos_dir = os.path.join("demo","photo_gallery")
+photos_dir = os.path.join(".", "img")
+photo_gallery_dir = "photo_gallery" 
 print ("%s"%photos_dir)
 
 def run():
@@ -22,13 +23,13 @@ def read_photos():
     #This could be a lot more advanced, like supporting subfolders, creating
     #thumbnails, and even reading the Jpeg EXIF data for better titles and such.
     #This is kept simple for demonstration purposes.
-    return [p for p in os.listdir(photos_dir) if p.lower().endswith(".jpg")]
+    return [p for p in os.listdir(photos_dir) if p.lower().endswith("medium.jpg")]
 
 def write_pages(photos):
     for photo in photos:
-        bf.writer.materialize_template("photo.mako",
-                (photos_dir,photo+".html"), {"photo":photo})
+        bf.template.materialize_template("photo.mako",
+                (photo_gallery_dir,photo+".html"), {"photo":photo})
 
 def write_photo_index(photos):
-    bf.writer.materialize_template("photo_index.mako",
-                (photos_dir,"index.html"), {"photos":photos})
+    bf.template.materialize_template("photo_index.mako",
+                (photo_gallery_dir,"index.html"), {"photos":photos})

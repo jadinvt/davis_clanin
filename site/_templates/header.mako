@@ -10,7 +10,8 @@
   <div id="navigation" class="grid_12">
     <%
     def nav_class(path):
-       render_path = bf.template_context.render_path.rsplit("index.html")[0]
+       #render_path = bf.template_context.render_path.rsplit("index.html")[0]
+       render_path = ""
        if path == "/" and render_path == "./":
            return "selected"
        elif render_path == path or "/" + render_path == path:
@@ -21,8 +22,8 @@
     <%
     def blog_nav_class():
        render_path = bf.template_context.render_path
-       if render_path.startswith("/blog/") and "archive" not in render_path:
-          return "selected"
+       #if render_path.startswith("/blog/") and "archive" not in render_path:
+       #   return "selected"
        return ""
     %>
     <ul class="theme_font">
@@ -37,13 +38,14 @@
         %>
         <a href="${path}" class="${blog_nav_class()}">Stories</a>
       </li>
+
       <li>
         <%
           path = bf.util.site_path_helper(
-                     bf.config.blog.path, "archive", trailing_slash=True)
+                     bf.config.photo_gallery.path)
         %>
-        <a href="${path}" class="${nav_class(path)}">Archives</a>
+        <a href="${path}" class="${blog_nav_class()}">Photo Gallery</a>
       </li>
-    </ul>
+      </ul>
   </div>
 </header>

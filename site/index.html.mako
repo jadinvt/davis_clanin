@@ -13,7 +13,6 @@ Welcome Honora!
 ![](/img/img_1269_medium.jpg)
 ![](/img/img_1242_medium.jpg)
 ![](/img/img_1261_medium.jpg)
-![](/img/img_1263_medium.jpg)
 
 ![](/img/IMG_1508_medium.jpg)
 

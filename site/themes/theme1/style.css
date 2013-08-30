@@ -322,7 +322,7 @@ div#credits p {
 /****************************/
 
 aside {
-    width: 260px;
+    width: 220px;
     float: right;
     margin-bottom: 30px;
     padding: 0 20px 20px 0;
@@ -425,26 +425,30 @@ aside li {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#DDD', endColorstr='#6C8CD5',GradientType=0 ); /* IE6-9 */
     background: linear-gradient(top, #DDD 8%,#6C8CD5 92%); /* W3C */
 }
-.floatright
+
+
+
+figure
 {
-  float:right;
-  margin: 0 0 15px 20px;
-  padding: 3px;
-  border: 1px solid black;
-  text-align:center;
+    padding: 15px;
+    text-align:center;
 }
-.floatleft
+figure.floatright
 {
-  float:left;
-  margin: 0 20px 15px 0;
-  padding: 15px;
-  border: 1px solid black;
-  text-align:center;
+    float:right;
+    margin: 0 0 15px 20px;
+    border: 1px solid black;
 }
-.imagecaption
+figure.floatleft
 {
-    font-size:75%;
-    width:80%;
+    float:left;
+    margin: 0 20px 15px 0;
+    border: 1px solid black;
+}
+
+figcaption
+{
+    font-size:80%;
 }
 
 figcaption.width450

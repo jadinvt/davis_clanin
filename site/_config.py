@@ -59,6 +59,15 @@ blog.timezone = "US/Central"
 ## TODO: move to plugin/filter?
 blog.googleanlytics_id = "UA-XXXXX-X"
 
+
+# Photo gallery plugin
+controllers.photo_gallery.enabled = True
+photo_gallery = plugins.photo_gallery
+photo_gallery.path="/photo_gallery"
+
+site.file_ignore_patterns¶ =[
+img,
+]
 ## Markdown extensions
 ## These are turned off by default, but turned on
 ## to show examples in /blog/2009/07/24/post-2/
