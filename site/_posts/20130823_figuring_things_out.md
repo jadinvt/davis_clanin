@@ -21,11 +21,16 @@ There wasn't much sleep for the rest of the overnight hours.  Every sound Honora
 
 The rest of the day was blissful.  We were waited on hand-and-foot by the hospital staff and spent most of the day holding our baby and marveling at our fantastic luck.
 
+<figure>
+<img src="/img/img_1562_medium.jpg" alt="Mama and child." />
+<figcaption>This came out of me.</figcaption>
+</figure>
+
 Later in the afternoon, Honora met Aunt Heather and Uncle Eric and . . .cousin? Maya.  They brought dinner (cheeeeseburgers) and we passed the baby around and played with Maya-Papaya.
 
 <figure class="floatright">
 <img src="/img/img_1473_1_medium.jpg" alt="Eric and Maya check out the baby." />
-<figcaption class="width450">Uncle Eric explains the cultural relevance of <em>Breaking Bad</em> to Honora and Maya (pictures wearing the nursing pillow as a 'floatie'</figcaption>
+<figcaption class="width450">Uncle Eric explains the cultural relevance of <em>Breaking Bad</em> to Honora and Maya (pictured wearing the nursing pillow as a 'floatie'</figcaption>
 </figure>
 
 At some point we filled out the ridiculously long form for the Texas Department of State Health Services birth certificate, without which we would have had to leave our child behind at the hospital. 

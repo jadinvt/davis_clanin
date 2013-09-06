@@ -17,7 +17,7 @@ ${self.head()}
         <div id="main_block">
           ${self.header()}
           <div id="prose_block" class="grid_9">
-            ${next.body()}
+            ${self.body()}
           </div>
           <div id="sidebar" class="grid_3">
             ${self.sidebar()}
@@ -35,3 +35,4 @@ ${self.head()}
 <%def name="sidebar()"><%include file="sidebar.mako" /></%def>
 <%def name="footer()"><%include file="footer.mako" /></%def>
 <%def name="body_scripts()"><%include file="body_scripts.mako" /></%def>
+

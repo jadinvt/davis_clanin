@@ -1,5 +1,5 @@
 ---
-categories: Stories
+categories: stories
 author: Alisa
 tags: 
 date: 2013/08/22 20:10:00

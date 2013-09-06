@@ -64,10 +64,13 @@ blog.googleanlytics_id = "UA-XXXXX-X"
 controllers.photo_gallery.enabled = True
 photo_gallery = plugins.photo_gallery
 photo_gallery.path="/photo_gallery"
+site.pic_of_the_day.path="/stories/category/pic-of-the-day"
+site.stories.path="/stories/category/stories"
+site.birth_story.path="/birth_story.html"
 
-site.file_ignore_patterns¶ =[
-img,
-]
+# site.file_ignore_patterns =[
+# 'img',
+# ]
 ## Markdown extensions
 ## These are turned off by default, but turned on
 ## to show examples in /blog/2009/07/24/post-2/
