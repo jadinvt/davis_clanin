@@ -28,7 +28,7 @@ Next came the final round of mashing on Alisa's formerly baby-containing abdomen
 Tia Aimee brought breakfast tacos and hung out with us for awhile.
 
 <figure>
-<img src="/img/img_1585_medium.jpg" />
+<img src="/img/2013/08/24/img_1585_medium.jpg" />
 <figcaption class="width450">We traded breakfast tacos for a baby burrito.</figcaption>
 </figure>
 
@@ -42,7 +42,7 @@ This time by the hospital pediatrician.  No problem, since Honora is, by this po
 ##### Result: **Passed**
 
 <figure class="floatright">
-<img src="/img/IMG_1646_medium.jpg" />
+<img src="/img/2013/08/24/IMG_1646_medium.jpg" />
 <figcaption class="width300">All dressed up and headed for the door.</figcaption>
 </figure>
 

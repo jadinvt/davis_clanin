@@ -14,7 +14,7 @@ That ended up being a really great thing because she became our photographer and
 
 I was pushing with all my might, pulling on the handrails as hard as possible.  I was incredibly sore the next day! I was more sore than after a weightlifting class! After only an hour of pushing, baby’s head crowned and she was born and they placed her on my chest right away. Jad and I cried tears of joy of course and it was very poignant and emotional just like you would expect.  
 
-![](/img/img_1269_medium.jpg)
+![](/img/2013/08/22/img_1269_medium.jpg)
 
 Jad actually helped “catch” the baby as she came out and he also cut the umbilical cord after it stopped pulsating.  It turned out I had second degree tear and Liane stitched me up, another reason I’m glad I had the epidural. The baby stayed on my chest for a while and I even nursed her a little bit in that first hour or so.  
 

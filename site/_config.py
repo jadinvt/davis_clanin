@@ -59,6 +59,7 @@ blog.timezone = "US/Central"
 ## TODO: move to plugin/filter?
 blog.googleanlytics_id = "UA-XXXXX-X"
 
+blog.disqus.enabled = True
 
 # Photo gallery plugin
 controllers.photo_gallery.enabled = True

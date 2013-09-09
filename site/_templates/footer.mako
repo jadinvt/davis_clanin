@@ -10,11 +10,7 @@
       </p>
     </div>
     <div class="grid_4" id="credits">
-      <p>
-        Copyright ${datetime.datetime.now().year}
-        ${bf.config.site.author}
-      </p>
-      <p>
+    <p>
         Powered by <a href="http://www.blogofile.com">Blogofile</a>
       </p>
     </div>

@@ -15,7 +15,7 @@ Luckily I had the option of being seen at Nurture, a practice with a certified n
 Back to the pitocin...so like I said at 1 pm they finally started the pitocin. At first I was laying on the bed, able to breath through the contractions without too much trouble. Eventually I had to stand up beside the bed and and sway back and forth, or turn around and place my hands on the hospital bed and rock my hips back and forth.  This worked for a while. I also sat on the birth ball we had brought for a while. I was able to use the breathing and relaxation techniques we had learned in class effectively.  Eventually I began to look longingly at the large shower, I wasn’t sure if I could get it or not being hooked up to the pitocin and monitors. 
 
 <figure class="floatleft">
-<img src="/img/img_1158_medium.jpg" />
+<img src="/img/2013/08/22/img_1158_medium.jpg" />
 <figcaption class="width450">Still in good spirits at low levels of pitocin.</figcaption>
 </figure>
 
@@ -30,7 +30,7 @@ I’m fairly certain I would have been solely focused on surviving the pain had 
 I was really worried about being able to be still at this point because the contractions were so incredibly intense. I hunched over and grabbed my nurse’s and Jad’s forearms and held on for dear life while I had another contraction. After that the doctor placed the epidural, it felt very very strange but not particularly painful.  After that I was told to lay on my back while they monitored my blood pressure to make sure it didn’t drop too low, a common  complication.  Blissfully, the pain started to recede.  
 
 <figure class="floatright">
-<img src="/img/img_1190_medium.jpg" />
+<img src="/img/2013/08/22/img_1190_medium.jpg" />
 <figcaption class="width450">Self-contained epidural anesthetic and pump (photographed by dork father)</figcaption>
 </figure>
 

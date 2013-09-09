@@ -12,7 +12,7 @@ It was Wednesday, August the 21st, the evening before my due date. I was general
 I wasn't sleeping much those nights, I was staying up until around 1 AM cleaning and surfing the web. At 11:45 that evening, I bent down in the bathroom to pick up a piece of clothing off the bathroom floor. I felt a "pop" in my stomach and then a gush of fluid. I yelled for Jad several times and ran out into the living room yelling "my water broke! my water broke! my water broke!"  It was funny because they had told us in birthing class that this didn't happen very often (and I knew that from being a nurse) and it would not be like "in the movies."  Typically, the membranes rupture well after labor has started. But for me, it totally was the stereotypical water breaking scene, minus being in public and a panicked rush to the hospital with the doofy husband for comic effect. 
 
 <figure class="floatleft">
-<img src="/img/img_1088_medium.jpg" alt="Alisa around midnight Aug. 22-23 just after her water broke" />
+<img src="/img/2013/08/21/img_1088_medium.jpg" alt="Alisa around midnight Aug. 22-23 just after her water broke" />
 <figcaption class="width300">Alisa in our classic pregnancy photography spot after her water broke.</figcaption>
 </figure>
 
@@ -23,7 +23,7 @@ I took a tylenol PM and laid down to try and sleep. I woke up a few times in the
 Jad and I drove over and parked at the hospital. We stopped to laugh and take a picture of a "Expectant Mother Parking Only" sign with a motorcycle behind it. 
 
 <figure class="floatright">
-<img src="/img/img_1254_1_medium.jpg" alt="" />
+<img src="/img/2013/08/21/img_1254_1_medium.jpg" alt="" />
 <figcaption class="width300">That's one bad-ass future mom.</figcaption>
 </figure>
 

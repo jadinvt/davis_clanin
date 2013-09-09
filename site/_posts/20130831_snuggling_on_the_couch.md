@@ -9,11 +9,11 @@ title: Snuggling on the Couch
 A little bit of good ol' fashioned mammal nuzzling on the couch.
 
 <figure>
-<img src="/img/img_2300_medium.jpg" alt="" />
+<img src="/img/2013/08/31/img_2300_medium.jpg" alt="" />
 <figcaption></figcaption>
 </figure>
 
 <figure>
-<img src="/img/img_2314_medium.jpg" alt="" />
+<img src="/img/2013/08/31/img_2314_medium.jpg" alt="" />
 <figcaption></figcaption>
 </figure>

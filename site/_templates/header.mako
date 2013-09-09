@@ -31,17 +31,9 @@
       <li>
         <%
           path = bf.util.site_path_helper(
-                     bf.config.site.stories.path)
+                     bf.config.blog.path)
         %>
-        <a href="${path}" class="${blog_nav_class(path)}">Stories</a>
-      </li>
-
-      <li>
-        <%
-          path = bf.util.site_path_helper(
-                     bf.config.site.pic_of_the_day.path)
-        %>
-       <a href="${path}" class="${blog_nav_class(path)}">Pic(s) of the Day</a>
+        <a href="${path}" class="${blog_nav_class(path)}">Journal</a>
       </li>
 
       <li>

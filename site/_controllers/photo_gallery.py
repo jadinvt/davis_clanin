@@ -23,7 +23,7 @@ def read_photos():
     #This could be a lot more advanced, like supporting subfolders, creating
     #thumbnails, and even reading the Jpeg EXIF data for better titles and such.
     #This is kept simple for demonstration purposes.
-    return [p for p in os.listdir(photos_dir) if p.lower().endswith("medium.jpg")]
+    return [p for p in os.listdir(photos_dir) if p.lower().endswith("large.jpg")]
 
 def write_pages(photos):
     for photo in photos:

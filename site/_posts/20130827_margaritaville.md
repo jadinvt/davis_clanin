@@ -9,7 +9,7 @@ title: Margaritaville
 On Tuesday night we sarcrificed some baby-snuggling time to watch *Breaking Bad* and thereby allow ourselves contact with our friends and online social networks again.
 
 <figure>
-<img src="/img/img_1853_medium.jpg" />
+<img src="/img/2013/08/27/img_1853_medium.jpg" />
 <figcaption>That's the stuff.</figcaption>
 </figure>
 

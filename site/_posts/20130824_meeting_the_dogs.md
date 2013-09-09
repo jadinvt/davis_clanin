@@ -9,14 +9,14 @@ title: Meeting the Dogs
 At some point, it occurred to me that I should look up how to introduce the dogs to Honora; but I hadn't done it by the time we got home from the hospital.  I'd kept the car seat on the table while Honora woke up.
 
 <figure>
-<img src="/img/img_1718_medium.jpg" />
+<img src="/img/2013/08/24/img_1718_medium.jpg" />
 <figcaption>Sleeping off the car ride home.</figcaption>
 </figure>
 
 Not too long after she woke up, I took her for a diaper change.  After I had her naked and squalling I realized that, not being in the hospital, I didn't have any diapers or wipes ready on the changing table; they were on the bottom shelf, unopened.  I picked up Honora in my left arm and knelt down to grab/open the supplies.  After a few seconds I looked back over my shoulder to find the dogs observing in an uncharacteristically chill manner.  
 
 <figure>
-<img src="/img/honora_meets_the_dogs.jpg" />
+<img src="/img/2013/08/24/honora_meets_the_dogs.jpg" />
 <figcaption>Dogs, meet Honora.  Honora, dogs.</figcaption>
 </figure>
 

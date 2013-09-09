@@ -17,15 +17,30 @@
       <h2 class="blog_post_title"><a href="${post.permapath()}" rel="bookmark" title="Permanent Link to ${post.title}">${post.title}</a></h2>
       <p><small><span class="blog_post_date">${post.date.strftime("%B %d, %Y at %I:%M %p")}</span> | categories: 
         <span class="blog_post_categories">${", ".join(category_links)}</span>
-        % if bf.config.blog.disqus.enabled:
-        | <a href="${post.permalink}#disqus_thread">View Comments</a>
-        % endif
-      </small></p>
+        </small></p>
     </header>
     <div class="post_prose">
       ${self.post_prose(post)}
     </div>
-  </div>
+
+    % if bf.config.blog.disqus.enabled:
+       <div id="disqus_thread"></div>
+       <script type="text/javascript">
+       /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+       var disqus_shortname = 'davisclanin'; // required: replace example with your forum shortname
+
+       /* * * DON'T EDIT BELOW THIS LINE * * */
+       (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    % endif
+    
+   </div>
 </article>
 
 <%def name="post_prose(post)">
