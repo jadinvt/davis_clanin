@@ -45,8 +45,6 @@ Taking on some family photos--i.e. everyone is wearing clothes:
 </figure>
 
 
-
-
 ### Milestones
 * First houseguest, Sarah Muñoz, who came bearing Turkey chili and cornbread muffins (devoured as of 9/4).
 * Honora is definitely getting rounder.  Cheeks and thighs becoming chubbier.
