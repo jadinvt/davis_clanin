@@ -62,7 +62,7 @@ blog.googleanlytics_id = "UA-XXXXX-X"
 blog.disqus.enabled = True
 
 # Photo gallery plugin
-controllers.photo_gallery.enabled = True
+controllers.photo_gallery.enabled = False
 photo_gallery = plugins.photo_gallery
 photo_gallery.path="/photo_gallery"
 site.pic_of_the_day.path="/stories/category/pic-of-the-day"

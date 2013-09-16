@@ -34,15 +34,6 @@ Aaand unrelated, but adorable.
 <img src="/img/2013/09/01/img_2529_medium.jpg" />
 </figure>
 
-Taking on some family photos--i.e. everyone is wearing clothes:
-
-<figure>
-<img src="/img/2013/09/01/img_2531_medium.jpg" />
-</figure>
-
-<figure>
-<img src="/img/2013/09/01/img_2543_medium.jpg" />
-</figure>
 
 
 ### Milestones

@@ -20,6 +20,24 @@ This was my first post pregnancy walk, and it felt fantastic! I could actually m
 <figcaption>Mama takes the wheel for the rest of the way.</figcaption>
 </figure>
 
+Taking on some family photos--i.e. everyone is wearing clothes, even inside:
+
+<figure>
+<img src="/img/2013/09/02/img_2531_medium.jpg" />
+</figure>
+
+<figure>
+<img src="/img/2013/09/02/img_2543_medium.jpg" />
+</figure>
+
+<figure>
+<img src="/img/2013/09/02/img_2551_medium.jpg" />
+</figure>
+
+<figure>
+<img src="/img/2013/09/02/img_2562_medium.jpg" />
+</figure>
+
 ### Milestones
 * First time in the stroller.
 * First time through the neighborhood.
