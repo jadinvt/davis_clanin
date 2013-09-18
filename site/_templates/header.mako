@@ -10,20 +10,25 @@
   <div id="navigation" class="grid_12">
     <%
     def nav_class(path):
-       if path == "/":
-          return "selected"
-       else:
-          return ""
+        render_path = bf.template_context.render_path
+        if render_path.startswith("."):
+            render_path = render_path[1:]
+        if path == '/':
+            if render_path == "/index.html" or render_path == "":
+                return "selected"
+            else:
+                return ""
+        elif 'archive' in render_path:
+            if 'archive' in path:
+                return "selected"
+            else:
+                return ""
+        elif render_path.startswith(path) or render_path == path:
+            return "selected"
+        else:
+            return ""
     %>
-    <%
-    def blog_nav_class(path):
-      render_path = bf.template_context.render_path
-      if render_path.startswith(path) or render_path == path:
-         return "selected"
-      else:
-         return ""
-    %>
-    <ul class="theme_font">
+      <ul class="theme_font">
       <li>
         <% path = bf.util.site_path_helper(trailing_slash=True) %>
         <a href="${path}" class="${nav_class(path)}">Home</a>
@@ -33,7 +38,7 @@
           path = bf.util.site_path_helper(
                      bf.config.blog.path)
         %>
-        <a href="${path}" class="${blog_nav_class(path)}">Journal</a>
+        <a href="${path}" class="${nav_class(path)}">Journal</a>
       </li>
 
       <li>
@@ -41,7 +46,7 @@
           path = bf.util.site_path_helper(
                      bf.config.site.birth_story.path)
         %>
-                 <a href="${path}" class="${blog_nav_class(path)}">Birth Story/FAQ</a>
+                 <a href="${path}" class="${nav_class(path)}">Birth Story/FAQ</a>
         </li>
       
       <li>
