@@ -1,2 +1,2 @@
 <%inherit file="site.mako" />
-<center><img src="/img/${photo.get_name()}"/></center>
+<center><img src="${photo.get_full_filename()}"/></center>
