@@ -42,7 +42,7 @@ This time by the hospital pediatrician.  No problem, since Honora is, by this po
 ##### Result: **Passed**
 
 <figure class="floatright">
-<img src="/img/2013/08/24/IMG_1646_medium.jpg" />
+<img src="/img/2013/08/24/img_1646_medium.jpg" />
 <figcaption class="width300">All dressed up and headed for the door.</figcaption>
 </figure>
 
