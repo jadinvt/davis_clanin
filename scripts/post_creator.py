@@ -16,14 +16,12 @@ categories: pic of the day
 author: Jad
 tags: 
 date: %(slash_date)s 12:00:00
-title: %(abbrev_month_date)s Pic of the Day 
+title: %(abbrev_month_date)s, Pic of the Day 
 draft: true
 ---
-%(figure_stanzas)s
 """
 
 figure_stanza = """
-
 <figure>
 <img src="%s" />
 <figcaption></figcaption>
@@ -56,30 +54,29 @@ def main():
                 add_modify_post = True 
                 new_images.append(image)
         if add_modify_post:
-            print("New images %s"%new_images)
-            print(file_path)
+            figure_stanzas = build_figure_stanzas(new_images, year, month, day)
             if os.path.isfile(file_path):
                 fp = open(file_path, 'a')
             else:
                 fp = open(file_path, 'w')
                 create_new_post(fp, year, month, day)
+            fp.write(figure_stanzas)
 
-def add_images_to_existing_post(file_path, existing_images):
-    return 0
+
+def build_figure_stanzas(new_images, year, month, day):
+    figure_stanzas = ''
+    for image in new_images:
+        image_path = os.path.join('img', year, month, day, image)
+        figure_stanzas += figure_stanza % image_path
+    return figure_stanzas
+    
 
 def create_new_post(fp, year, month, day):
     print("Creating New Post")
     slash_date = "%s/%s/%s"%(year,month,day)
     abbrev_month_date = "%s. %s"%(MONTH_ABBREV[int(month)-1], day)
-    figure_stanzas = "fig_stanz"
-    print(file_template%{'slash_date':slash_date, 
-        'abbrev_month_date':abbrev_month_date,
-        'figure_stanzas':figure_stanzas})
-    return 0
     fp.write(file_template%{'slash_date':slash_date, 
-        'abbrev_month_date':abbrev_month_date,
-        'file_stanzas':file_stanzas})
-
+        'abbrev_month_date':abbrev_month_date})
 
 
 def get_posted_images():
