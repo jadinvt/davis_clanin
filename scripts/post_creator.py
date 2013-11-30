@@ -17,7 +17,6 @@ author: Jad
 tags: 
 date: %(slash_date)s 12:00:00
 title: %(abbrev_month_date)s, Pic of the Day 
-draft: true
 ---
 """
 
@@ -66,14 +65,14 @@ def main():
 def build_figure_stanzas(new_images, year, month, day):
     figure_stanzas = ''
     for image in new_images:
-        image_path = os.path.join('img', year, month, day, image)
+        image_path = os.path.join('/img', year, month, day, image)
         figure_stanzas += figure_stanza % image_path
     return figure_stanzas
     
 
 def create_new_post(fp, year, month, day):
-    print("Creating New Post")
     slash_date = "%s/%s/%s"%(year,month,day)
+    print("Creating New Post %s"%slash_date)
     abbrev_month_date = "%s. %s"%(MONTH_ABBREV[int(month)-1], day)
     fp.write(file_template%{'slash_date':slash_date, 
         'abbrev_month_date':abbrev_month_date})
