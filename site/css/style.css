@@ -105,11 +105,22 @@ a:hover { color: #036; }
   text-align:center;
 }
 
+.next
+{
+  float:right;
+}
 
 
+.previous
+{
+  float:left;
+  padding-right: 100px;
+}
 
-
-
+.blog_post_title
+{
+  text-align: center;
+}
 
 
 

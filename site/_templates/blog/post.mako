@@ -15,12 +15,27 @@
     <header>
       <div id="${post.slug}"></div>
       <h2 class="blog_post_title"><a href="${post.permapath()}" rel="bookmark" title="Permanent Link to ${post.title}">${post.title}</a></h2>
-      <p><small><span class="blog_post_date">${post.date.strftime("%B %d, %Y at %I:%M %p")}</span> | categories: 
-        <span class="blog_post_categories">${", ".join(category_links)}</span>
-        </small></p>
+      <p><small>
+      % if post.previous:
+        <a href="${post.previous.path}" class="previous"><< ${post.previous.date.strftime("%B %d")}</a>
+      % endif
+      <span class="blog_post_date">${post.date.strftime("%B %d, %Y at %I:%M %p")}</span> | categories: 
+      <span class="blog_post_categories">${", ".join(category_links)}</span>
+      % if post.next:
+        <a href="${post.next.path}" class="next">${post.next.date.strftime("%B %d")} >></a>
+      % endif  
+      </small></p>
     </header>
     <div class="post_prose">
       ${self.post_prose(post)}
+    </div>
+    <div class="prev_next">
+      % if post.previous:
+        <a href="${post.previous.path}" class="previous"><< ${post.previous.date.strftime("%B %d, %Y")}</a>
+      % endif
+      % if post.next:
+         <a href="${post.next.path}" class="next">${post.next.date.strftime("%B %d, %Y")} >></a>
+      % endif  
     </div>
 
     % if bf.config.blog.disqus.enabled:

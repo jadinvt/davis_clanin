@@ -9,6 +9,7 @@
   <link rel="apple-touch-icon" href="${bf.util.site_path_helper('img/apple-touch-icon.png')}">
 
   <link rel="stylesheet" href="${bf.util.site_path_helper('css/base.css?v=1')}">
+  <link rel="stylesheet" href="${bf.util.site_path_helper('css/style.css?v=1')}">
   <link rel="stylesheet" href="${bf.util.site_path_helper('css/grid.css?v=1')}">
   <link rel="stylesheet" media="handheld" href="${bf.util.site_path_helper('/css/handheld.css?v=1')}">
   <link rel="stylesheet" href="${bf.util.site_path_helper(bf.config.filters.syntax_highlight.css_dir,'/pygments_'+bf.config.filters.syntax_highlight.style+'.css')}" type="text/css" />
