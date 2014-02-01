@@ -13,7 +13,7 @@ Blogofile doesn't do sticky posts and as the posts and pics pile on (and they wi
 
 Q (the only FAQ so far): How do you pronounce her name?
 
-A: uh-NO-ra MAH-rade
+A: uh-NO-ra mah-RADE
 
 </%self:filter>
 </article>
