@@ -76,7 +76,6 @@ def get_posted_images():
         for file in files:
             fh = open(os.path.join(root, file), 'r')
             for line in fh:
-                print("%s\n" % line)
                 match = re.search(
                     '(\d{4})\/(\d{2})\/(\d{2})\/img_(\d+_?\d*)_.*jpg', line)
                 if match:
