@@ -94,7 +94,7 @@ def get_existing_images():
                 match = re.search(
                     'img_(\d+_?\d*)_.*jpg', image)
                 image_number = match.group(1)
-                if not re.search('small|medium', image):
+                if not re.search('small|large', image):
                     match = re.search('(\d{4})\/(\d{2})\/(\d{2})',
                                       root)
                     key = "%s%s%s" % (match.group(1),
