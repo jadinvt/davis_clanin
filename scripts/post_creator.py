@@ -57,7 +57,7 @@ def build_figure_stanzas(new_images, year, month, day):
     figure_stanzas = ''
     for image in new_images:
         image_path = os.path.join(
-            '/img', year, month, day, 'img_%s_large.jpg' % image)
+            '/img', year, month, day, 'img_%s_medium.jpg' % image)
         figure_stanzas += figure_stanza % image_path
     return figure_stanzas
 
