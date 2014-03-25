@@ -3,3 +3,5 @@
         *.py[co]
 _site
 img
+*pyc
+__pycache__
