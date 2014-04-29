@@ -5,43 +5,42 @@ import os
 from PIL.ExifTags import TAGS
 import errno
 
-large_scale = 4
-medium_scale = 9
-small_scale = 28
+large_scale = 3
+medium_scale = 8
+small_scale = 24
 
-
-target = sys.argv[1]
-filename = os.path.basename(target)
-
-fullpath = os.path.abspath(target)
-(year, month, day) = fullpath.split("/")[4:7]
-
-path = "/mnt/media/honora_pics/scaled/%s/%s/%s/" % (year, month, day)
-print ("path: %s"%path)
 
 def main():
-    mkdir_p(path)
-    filename_body, fileextension = os.path.splitext(filename)
-    filename_body = filename_body.lower()
-    print ("filename %s %s %s" %(filename, filename_body, fileextension))
+    for target in sys.argv[1:]:
+        filename = os.path.basename(target)
 
-    photo = Image.open(fullpath)
+        fullpath = os.path.abspath(target)
+        (year, month, day) = fullpath.split("/")[4:7]
 
-    (width, height) = photo.size
-    large_photo = photo.resize((int(width/large_scale),int(height/large_scale)), 
-            Image.ANTIALIAS)
+        path = "/mnt/media/honora_pics/scaled/%s/%s/%s/" % (year, month, day)
+        print ("path: %s%s"%(path,target))
 
-    large_photo.save("%s/%s_large.jpg"%(path,filename_body), quality=95,optimize=True, dpi=(72,72))
+        mkdir_p(path)
+        filename_body, fileextension = os.path.splitext(filename)
+        filename_body = filename_body.lower()
 
-    medium_photo = photo.resize((int(width/medium_scale),int(height/medium_scale)), 
-            Image.ANTIALIAS)
+        photo = Image.open(fullpath)
 
-    medium_photo.save("%s/%s_medium.jpg"%(path,filename_body), quality=95,optimize=True, dpi=(72,72))
+        (width, height) = photo.size
+        large_photo = photo.resize((int(width/large_scale),int(height/large_scale)), 
+                Image.ANTIALIAS)
 
-    small_photo = photo.resize((int(width/small_scale),int(height/small_scale)), 
-            Image.ANTIALIAS)
+        large_photo.save("%s/%s_large.jpg"%(path,filename_body), quality=95,optimize=True, dpi=(72,72))
 
-    small_photo.save("%s/%s_small.jpg"%(path,filename_body), quality=95,optimize=True, dpi=(72,72))
+        medium_photo = photo.resize((int(width/medium_scale),int(height/medium_scale)), 
+                Image.ANTIALIAS)
+
+        medium_photo.save("%s/%s_medium.jpg"%(path,filename_body), quality=95,optimize=True, dpi=(72,72))
+
+        small_photo = photo.resize((int(width/small_scale),int(height/small_scale)), 
+                Image.ANTIALIAS)
+
+        small_photo.save("%s/%s_small.jpg"%(path,filename_body), quality=95,optimize=True, dpi=(72,72))
 
 def mkdir_p(path):
     try:

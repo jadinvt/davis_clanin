@@ -77,7 +77,7 @@ def get_posted_images():
             fh = open(os.path.join(root, file), 'r')
             for line in fh:
                 match = re.search(
-                    '(\d{4})\/(\d{2})\/(\d{2})\/img_(\d+_?\d*)_.*jpg', line)
+                    '(\d{4})\/(\d{2})\/(\d{2})\/img_(\d+_?\d*(\.\d*)?)_.*jpg', line)
                 if match:
                     key = "%s%s%s%s" % (match.group(1), match.group(2),
                                         match.group(3), match.group(4))
@@ -91,18 +91,22 @@ def get_existing_images():
     for root, dirs, images in os.walk(IMG_PATH):
         if not dirs:  # at a "node" with only images
             for image in images:
-                match = re.search(
-                    'img_(\d+_?\d*)_.*jpg', image)
-                image_number = match.group(1)
-                if not re.search('small|large', image):
-                    match = re.search('(\d{4})\/(\d{2})\/(\d{2})',
-                                      root)
-                    key = "%s%s%s" % (match.group(1),
-                                      match.group(2), match.group(3))
-                    if key in existing_images:
-                        existing_images[key].append(image_number)
-                    else:
-                        existing_images[key] = [image_number, ]
+                try:
+                    match = re.search(
+                        'img_(\d+_?\d*(\.\d*)?)_.*jpg', image)
+                    image_number = match.group(1)
+                    if not re.search('small|large', image):
+                        match = re.search('(\d{4})\/(\d{2})\/(\d{2})',
+                                          root)
+                        key = "%s%s%s" % (match.group(1),
+                                          match.group(2), match.group(3))
+                        if key in existing_images:
+                            existing_images[key].append(image_number)
+                        else:
+                            existing_images[key] = [image_number, ]
+                except AttributeError:
+                    print("%s didn't match regular expression." % image)
+                    raise 
     return existing_images
 
 
