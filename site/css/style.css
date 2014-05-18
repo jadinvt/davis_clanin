@@ -122,7 +122,10 @@ a:hover { color: #036; }
   text-align: center;
 }
 
-
+.post_prose
+{
+  font-size:110%;
+}
 
 
 

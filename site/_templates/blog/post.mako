@@ -26,6 +26,7 @@
       % endif  
       </small></p>
     </header>
+    <hr/>
     <div class="post_prose">
       ${self.post_prose(post)}
     </div>
