@@ -91,7 +91,7 @@ def get_existing_images():
     for root, dirs, images in os.walk(IMG_PATH):
         if not dirs:  # at a "node" with only images
             for image in images:
-                if (re.search('mp4$', image)):
+                if (re.search('(mp4|ogg)$', image)):
                     continue
                 try:
                     match = re.search(
