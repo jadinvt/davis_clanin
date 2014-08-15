@@ -77,7 +77,7 @@ def get_posted_images():
             fh = open(os.path.join(root, file), 'r')
             for line in fh:
                 match = re.search(
-                    '(\d{4})\/(\d{2})\/(\d{2})\/img_(\d+_?\d*(\.\d*)?)_.*jpg', line)
+                    '(\d{4})\/(\d{2})\/(\d{2})\/img_(\d+_?\d*(\.\d*)?(_hdr)?)_.*jpg', line)
                 if match:
                     key = "%s%s%s%s" % (match.group(1), match.group(2),
                                         match.group(3), match.group(4))
@@ -95,7 +95,7 @@ def get_existing_images():
                     continue
                 try:
                     match = re.search(
-                        'img_(\d+_?\d*(\.\d*)?)_.*jpg', image)
+                        'img_(\d+_?\d*(\.\d*)?(_hdr)?)_.*jpg', image)
                     image_number = match.group(1)
                     if not re.search('small|large', image):
                         match = re.search('(\d{4})\/(\d{2})\/(\d{2})',
