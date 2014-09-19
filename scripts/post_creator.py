@@ -46,6 +46,7 @@ def main():
         if add_modify_post:
             figure_stanzas = build_figure_stanzas(new_images, year, month, day)
             if os.path.isfile(file_path):
+                print("Appending to  New Post %s" % file_path)
                 fp = open(file_path, 'a')
             else:
                 fp = open(file_path, 'w')
@@ -91,7 +92,7 @@ def get_existing_images():
     for root, dirs, images in os.walk(IMG_PATH):
         if not dirs:  # at a "node" with only images
             for image in images:
-                if (re.search('(mp4|ogg)$', image)):
+                if (re.search('(mp4|ogg|mov)$', image)):
                     continue
                 try:
                     match = re.search(
