@@ -47,7 +47,7 @@ def main():
             figure_stanzas = build_figure_stanzas(new_images, year, month, day)
             if os.path.isfile(file_path):
                 print("Appending to  New Post %s" % file_path)
-                fp = open(file_path, 'a')
+                fp = open(file_path, "a")
             else:
                 fp = open(file_path, 'w')
                 create_new_post(fp, year, month, day)
