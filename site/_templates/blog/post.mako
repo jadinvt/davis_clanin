@@ -19,8 +19,7 @@
       % if post.previous:
         <a href="${post.previous.path}" class="previous"><< ${post.previous.date.strftime("%B %d")}</a>
       % endif
-      <span class="blog_post_date">${post.date.strftime("%B %d, %Y at %I:%M %p")}</span> | categories: 
-      <span class="blog_post_categories">${", ".join(category_links)}</span>
+      <span class="blog_post_date">${post.date.strftime("%B %d, %Y at %I:%M %p")}</span> 
       % if post.next:
         <a href="${post.next.path}" class="next">${post.next.date.strftime("%B %d")} >></a>
       % endif  
